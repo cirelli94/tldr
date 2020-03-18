@@ -29,3 +29,7 @@
 - Show all messages by a specific executable:
 
 `journalctl {{path/to/executable}}`
+
+- Show all messages of a specified priority or above (0: emerg, 1: alert, 2: crit, 3: err, 4: warning, 5: notice, 6: info, 7: debug):
+
+`journalctl -p err` or `journalctl -p 3`
